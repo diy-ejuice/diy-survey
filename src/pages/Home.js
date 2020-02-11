@@ -10,7 +10,7 @@ export default class Home extends Component {
           <Col>
             <h1>Welcome to the DIY Mixing Poll!</h1>
             <p>
-              You can <Link to="/survey">taking the current survey</Link> or{' '}
+              You can <Link to="/survey">take the current survey</Link> or{' '}
               <Link to="/results">view completed survey results</Link>.
             </p>
           </Col>
