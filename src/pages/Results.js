@@ -86,6 +86,10 @@ export class Results extends Component {
         innerSurvey => innerSurvey.id === surveyId
       );
 
+      if (!surveyMatch || !surveyMatch.visible) {
+        return null;
+      }
+
       return (
         <option value={surveyId} key={surveyId}>
           {surveyMatch?.name || surveyId}

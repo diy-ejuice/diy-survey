@@ -1,14 +1,17 @@
 [
   {
     "id": "fotw-2020-01-28",
-    "name": "Cherry"
+    "name": "Cherry",
+    "visible": true
   },
   {
     "id": "fotw-2020-02-04",
-    "name": "Banana"
+    "name": "Banana",
+    "visible": true
   },
   {
     "id": "fotw-2020-02-11",
-    "name": "Bourbon"
+    "name": "Bourbon",
+    "visible": false
   }
 ]
