@@ -62,7 +62,8 @@
        "value": "Something Else",
        "text": "Something Else"
       }
-	 ],  
+	 ]
+	}	
     {
      "type": "radiogroup",
      "name": "BourbonQ2",
@@ -120,7 +121,8 @@
        "value": "Something Else",
        "text": "Something Else"
       }
-   ],
+	]
+   }
     {
      "type": "radiogroup",
      "name": "BourbonQ3",
@@ -179,7 +181,8 @@
        "text": "Something Else"
       }
      
-   ],
+   ]
+  }
    "title": "Pick your Favorite"
   }
  ],
