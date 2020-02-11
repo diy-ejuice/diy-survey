@@ -13,6 +13,7 @@ import {
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import Surveys from 'data/surveys';
 import { actions as appActions } from 'reducers/application';
 import { getSurveys, getSelectedSurvey } from 'selectors/application';
 
@@ -79,6 +80,19 @@ export class Results extends Component {
   get selector() {
     const { surveys } = this.props;
 
+    const mappedSurveys = surveys.map(survey => {
+      const { surveyId } = survey;
+      const surveyMatch = Surveys.find(
+        innerSurvey => innerSurvey.id === surveyId
+      );
+
+      return (
+        <option value={surveyId} key={surveyId}>
+          {surveyMatch?.name || surveyId}
+        </option>
+      );
+    });
+
     return (
       <FormControl
         as="select"
@@ -87,11 +101,7 @@ export class Results extends Component {
         className="mb-2"
       >
         <option value="">Select a survey</option>
-        {surveys.map(survey => (
-          <option value={survey.surveyId} key={survey.surveyId}>
-            {survey.surveyId}
-          </option>
-        ))}
+        {mappedSurveys}
       </FormControl>
     );
   }
