@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your most favorite Bourbon. Whisk(e)y, or Irish Cream flavor",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Kentucky Bourbon",
+              "text": "TFA Kentucky Bourbon"
+            },
+            {
+              "value": "TFA Irish Cream",
+              "text": "TFA Irish Cream"
+            },
+            {
+              "value": "FLV Irish Cream",
+              "text": "FLV Irish Cream"
+            },
+            {
+              "value": "FLV Bourbon",
+              "text": "FLV Bourbon"
+            },
+            {
+              "value": "VT Bourbon",
+              "text": "VT Bourbon"
+            },
+            {
+              "value": "VT Scotch Whiskey",
+              "text": "VT Scotch Whiskey"
+            },
+            {
+              "value": "VT Irish Cream",
+              "text": "VT Irish Cream"
+            },
+            {
+              "value": "FA Whiskey",
+              "text": "FA Whiskey"
+            },
+            {
+              "value": "FA Irish Cream",
+              "text": "FA Irish Cream"
+            },
+            {
+              "value": "FW Whiskey",
+              "text": "FW Whiskey"
+            },
+            {
+              "value": "CAP Irish Cream",
+              "text": "CAP Irish Cream"
+            },
+            {
+              "value": "WF Bourbon",
+              "text": "WF Bourbon"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "secondFavoriteFlavor",
+          "title": "What's your second-favorite Bourbon, Whisk(e)y, or Irish Cream Flavor?",
+          "choices": [
+            {
+              "value": "TFA Kentucky Bourbon",
+              "text": "TFA Kentucky Bourbon"
+            },
+            {
+              "value": "TFA Irish Cream",
+              "text": "TFA Irish Cream"
+            },
+            {
+              "value": "FLV Irish Cream",
+              "text": "FLV Irish Cream"
+            },
+            {
+              "value": "FLV Bourbon",
+              "text": "FLV Bourbon"
+            },
+            {
+              "value": "VT Bourbon",
+              "text": "VT Bourbon"
+            },
+            {
+              "value": "VT Scotch Whiskey",
+              "text": "VT Scotch Whiskey"
+            },
+            {
+              "value": "VT Irish Cream",
+              "text": "VT Irish Cream"
+            },
+            {
+              "value": "FA Whiskey",
+              "text": "FA Whiskey"
+            },
+            {
+              "value": "FA Irish Cream",
+              "text": "FA Irish Cream"
+            },
+            {
+              "value": "FW Whiskey",
+              "text": "FW Whiskey"
+            },
+            {
+              "value": "CAP Irish Cream",
+              "text": "CAP Irish Cream"
+            },
+            {
+              "value": "WF Bourbon",
+              "text": "WF Bourbon"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "leastFavoriteFlavor",
+          "title": "What's the WORST Bourbon, Whisk(e)y, or Irish Cream Flavor you've ever tried?",
+          "choices": [
+            {
+              "value": "TFA Kentucky Bourbon",
+              "text": "TFA Kentucky Bourbon"
+            },
+            {
+              "value": "TFA Irish Cream",
+              "text": "TFA Irish Cream"
+            },
+            {
+              "value": "FLV Irish Cream",
+              "text": "FLV Irish Cream"
+            },
+            {
+              "value": "FLV Bourbon",
+              "text": "FLV Bourbon"
+            },
+            {
+              "value": "VT Bourbon",
+              "text": "VT Bourbon"
+            },
+            {
+              "value": "VT Scotch Whiskey",
+              "text": "VT Scotch Whiskey"
+            },
+            {
+              "value": "VT Irish Cream",
+              "text": "VT Irish Cream"
+            },
+            {
+              "value": "FA Whiskey",
+              "text": "FA Whiskey"
+            },
+            {
+              "value": "FA Irish Cream",
+              "text": "FA Irish Cream"
+            },
+            {
+              "value": "FW Whiskey",
+              "text": "FW Whiskey"
+            },
+            {
+              "value": "CAP Irish Cream",
+              "text": "CAP Irish Cream"
+            },
+            {
+              "value": "WF Bourbon",
+              "text": "WF Bourbon"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ],
+      "title": "Pick your Favorite"
+    }
+  ],
+  "cookieName": "fotw-2020-02-11"
+}
