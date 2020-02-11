@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { Component, PureComponent } from 'react';
+import React, { Component } from 'react';
 import { Container, Row, Col, FormControl } from 'react-bootstrap';
 import {
   Bar,
@@ -13,36 +13,10 @@ import {
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import AngledTick from 'components/AngledTick/AngledTick';
 import Surveys from 'data/surveys';
 import { actions as appActions } from 'reducers/application';
 import { getSurveys, getSelectedSurvey } from 'selectors/application';
-
-class AngledTick extends PureComponent {
-  static propTypes = {
-    x: PropTypes.number.isRequired,
-    y: PropTypes.number.isRequired,
-    payload: PropTypes.object.isRequired
-  };
-
-  render() {
-    const { x, y, payload } = this.props;
-
-    return (
-      <g transform={`translate(${x},${y})`}>
-        <text
-          x={0}
-          y={0}
-          dy={18}
-          textAnchor="end"
-          fill="#666"
-          transform="rotate(-35)"
-        >
-          {payload.value}
-        </text>
-      </g>
-    );
-  }
-}
 
 export class Results extends Component {
   static propTypes = {
