@@ -8,9 +8,10 @@ export default class Home extends Component {
       <Container>
         <Row>
           <Col>
-            <h1>Welcome</h1>
+            <h1>Welcome to the DIY Mixing Poll!</h1>
             <p>
-              Help us by <Link to="/survey">taking the current survey</Link>!
+              You can <Link to="/survey">taking the current survey</Link> or{' '}
+              <Link to="/results">view completed survey results</Link>.
             </p>
           </Col>
         </Row>
