@@ -139,7 +139,7 @@ export class Results extends Component {
         className="mb-2"
       >
         {questions.map(question => (
-          <option value={question.id} key={question.id}>
+          <option value={question.id} key={question.name}>
             {question.name}
           </option>
         ))}
