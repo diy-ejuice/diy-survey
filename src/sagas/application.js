@@ -21,26 +21,38 @@ function* loadSurveyWorker({ id }) {
 
     if (status !== 200) {
       throw new Error(`Failed to fetch data for survey ${id}`);
+    } else if (!Array.isArray(data) || !data.length) {
+      throw new Error(`Got a non-array response for survey ${id}`);
     }
 
     const counts = {};
 
-    for (const { favoriteFlavor } of data) {
-      if (!counts[favoriteFlavor]) {
-        counts[favoriteFlavor] = 0;
-      }
-
-      counts[favoriteFlavor]++;
+    for (const question of Object.keys(data[0])) {
+      counts[question] = {};
     }
 
-    const countArray = Object.entries(counts).map(([flavor, count]) => ({
-      flavor,
-      count
-    }));
+    for (const result of data) {
+      for (const [question, answer] of Object.entries(result)) {
+        if (!counts[question][answer]) {
+          counts[question][answer] = 0;
+        }
 
-    countArray.sort((a, b) => (a.count < b.count ? 1 : -1));
+        counts[question][answer]++;
+      }
+    }
 
-    yield put(actions.loadSurveySuccess(id, countArray));
+    const answers = {};
+
+    for (const [question, results] of Object.entries(counts)) {
+      answers[question] = Object.entries(results).map(([flavor, count]) => ({
+        flavor,
+        count
+      }));
+
+      answers[question].sort((a, b) => (a.count < b.count ? 1 : -1));
+    }
+
+    yield put(actions.loadSurveySuccess(id, answers));
   } catch (error) {
     // eslint-disable-next-line
     console.error(error);
