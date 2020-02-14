@@ -27,12 +27,12 @@ function* loadSurveyWorker({ id }) {
 
     const counts = {};
 
-    for (const question of Object.keys(data[0])) {
-      counts[question] = {};
-    }
-
     for (const result of data) {
       for (const [question, answer] of Object.entries(result)) {
+        if (!counts[question]) {
+          counts[question] = {};
+        }
+
         if (!counts[question][answer]) {
           counts[question][answer] = 0;
         }
