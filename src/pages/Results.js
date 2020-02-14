@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Container, Row, Col, FormControl } from 'react-bootstrap';
+import { Container, Row, Col, FormControl, Spinner } from 'react-bootstrap';
 import {
   Bar,
   BarChart,
@@ -92,6 +92,15 @@ export class Results extends Component {
 
   get surveySelector() {
     const { surveys } = this.props;
+
+    if (!Array.isArray(surveys) || !surveys.length) {
+      return (
+        <Col md={12} className="text-center">
+          <h5>Loading Surveys&hellip;</h5>
+          <Spinner animation="border" />
+        </Col>
+      );
+    }
 
     const mappedSurveys = surveys.map(survey => {
       const { surveyId } = survey;
