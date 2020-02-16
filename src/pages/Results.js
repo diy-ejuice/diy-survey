@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Container, Row, Col, FormControl, Spinner } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
+import { connect } from 'react-redux';
 import {
   Bar,
   BarChart,
@@ -10,7 +12,6 @@ import {
   XAxis,
   YAxis
 } from 'recharts';
-import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import AngledTick from 'components/AngledTick/AngledTick';
@@ -185,9 +186,10 @@ export class Results extends Component {
   render() {
     return (
       <Container>
+        <Helmet title="Survey Results" />
         <Row>
           <Col>
-            <h1>Survey Results</h1>
+            <h1>Poll Results</h1>
             {this.surveySelector}
             {this.questionSelector}
             {this.chart}

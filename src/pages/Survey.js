@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as Survey from 'survey-react';
@@ -49,9 +50,10 @@ export class SurveyPage extends Component {
   render() {
     return (
       <Container>
+        <Helmet title="Current Poll" />
         <Row>
           <Col>
-            <h1>Take Survey</h1>
+            <h1>Current Poll</h1>
             <Survey.Survey
               css={this.css}
               model={this.model}
