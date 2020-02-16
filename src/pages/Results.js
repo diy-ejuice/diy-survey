@@ -1,3 +1,4 @@
+import { format, parseISO, startOfWeek } from 'date-fns';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Container, Row, Col, FormControl, Spinner } from 'react-bootstrap';
@@ -108,9 +109,14 @@ export class Results extends Component {
         return null;
       }
 
+      const surveyDate = format(
+        startOfWeek(parseISO(surveyId.replace('fotw-', ''))),
+        'MMM do'
+      );
+
       return (
         <option value={surveyId} key={surveyId}>
-          {surveyMatch?.name || surveyId}
+          {surveyMatch.name || surveyId} - Week of {surveyDate}
         </option>
       );
     });
