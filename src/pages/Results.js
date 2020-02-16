@@ -35,12 +35,8 @@ export class Results extends Component {
       selectedQuestion: '',
       questions: []
     };
-    this.handleSurveySelectorChange = this.handleSurveySelectorChange.bind(
-      this
-    );
-    this.handleQuestionSelectorChange = this.handleQuestionSelectorChange.bind(
-      this
-    );
+    this.handleSurveyChange = this.handleSurveyChange.bind(this);
+    this.handleQuestionChange = this.handleQuestionChange.bind(this);
   }
 
   componentDidMount() {
@@ -49,7 +45,7 @@ export class Results extends Component {
     actions.loadSurveys();
   }
 
-  async handleSurveySelectorChange(event) {
+  async handleSurveyChange(event) {
     const { actions } = this.props;
     const {
       target: { value }
@@ -78,7 +74,7 @@ export class Results extends Component {
     });
   }
 
-  handleQuestionSelectorChange(event) {
+  handleQuestionChange(event) {
     const {
       target: { value }
     } = event;
@@ -123,7 +119,7 @@ export class Results extends Component {
       <FormControl
         as="select"
         defaultValue=""
-        onChange={this.handleSurveySelectorChange}
+        onChange={this.handleSurveyChange}
         className="mb-2"
       >
         <option value="">Select a survey</option>
@@ -144,7 +140,7 @@ export class Results extends Component {
       <FormControl
         as="select"
         value={selectedQuestion}
-        onChange={this.handleQuestionSelectorChange}
+        onChange={this.handleQuestionChange}
         className="mb-2"
       >
         {questions.map(question => (
