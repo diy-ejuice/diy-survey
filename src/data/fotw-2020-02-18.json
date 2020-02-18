@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your favorite gummy candy flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FW Gummy Bear",
+              "text": "FW Gummy Bear"
+            },
+            {
+              "value": "TFA Gummy Candy",
+              "text": "TFA Gummy Candy"
+            },
+            {
+              "value": "CAP Jelly Candy",
+              "text": "CAP Jelly Candy"
+            },
+            {
+              "value": "LB Sour Gummy",
+              "text": "LB Sour Gummy"
+            },
+            {
+              "value": "WF Sour Gummy",
+              "text": "WF Sour Gummy"
+            },
+            {
+              "value": "WF Gummy Worm",
+              "text": "WF Gummy Worm"
+            },
+            {
+              "value": "WF Gushy Fruit Candy",
+              "text": "WF Gushy Fruit Candy"
+            },
+            {
+              "value": "WF Peach Gummy",
+              "text": "WF Peach Gummy"
+            },
+            {
+              "value": "FLV Peach Gummy",
+              "text": "FLV Peach Gummy"
+            },
+            {
+              "value": "CAP 27 Bears",
+              "text": "CAP 27 Bears"
+            },
+            {
+              "value": "WF Frog Candy",
+              "text": "WF Frog Candy"
+            },
+            {
+              "value": "WF Sour Watermelon Candy",
+              "text": "WF Sour Watermelon Candy"
+            },
+            {
+              "value": "WF Strawberry Gummy Candy",
+              "text": "WF Strawberry Gummy Candy"
+            },
+            {
+              "value": "WF Pina Colada Gummy Candy",
+              "text": "WF Pina Colada Gummy Candy"
+            },
+            {
+              "value": "WF Blueberry Gummy Candy",
+              "text": "WF Blueberry Gummy Candy"
+            },
+            {
+              "value": "WF Cola Gummy Candy",
+              "text": "WF Cola Gummy Candy"
+            },
+            {
+              "value": "TFA Swedish Gummy",
+              "text": "TFA Swedish Gummy"
+            },
+            {
+              "value": "OOO Gummy Fish",
+              "text": "OOO Gummy Fish"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-02-18"
+}
