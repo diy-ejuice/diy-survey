@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your favorite Bubble Gum flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "CAP Bubblegum",
+              "text": "CAP Bubblegum"
+            },
+            {
+              "value": "FLV Bubblegum",
+              "text": "FLV Bubblegum"
+            },
+            {
+              "value": "LA Bubblegum",
+              "text": "LA Bubblegum"
+            },
+            {
+              "value": "WF Bubba Gum",
+              "text": "WF Bubba Gum"
+            },
+            {
+              "value": "VT Bubble Gum Base",
+              "text": "VT Bubble Gum Base"
+            },
+            {
+              "value": "MB American Bubble Gum",
+              "text": "MB American Bubble Gum"
+            },
+            {
+              "value": "TFA Bubble Gum",
+              "text": "TFA Bubble Gum"
+            },
+            {
+              "value": "TFA Bubble Gum (Fruity)",
+              "text": "TFA Bubble Gum (Fruity)"
+            },
+            {
+              "value": "INW Donald Bubblegum",
+              "text": "INW Donald Bubblegum"
+            },
+            {
+              "value": "INW Blue Dwarf",
+              "text": "INW Blue Dwarf"
+            },
+            {
+              "value": "INW Bubblegum (YC)",
+              "text": "INW Bubblegum (YC)"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-02-25"
+}
