@@ -1,0 +1,70 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your flavorite Cola flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Cola",
+              "text": "FA Cola"
+            },
+            {
+              "value": "TFA Cola Fizz",
+              "text": "TFA Cola Fizz"
+            },
+            {
+              "value": "LB Cola Freeze",
+              "text": "LB Cola Freeze"
+            },
+            {
+              "value": "FLV Cola",
+              "text": "FLV Cola"
+            },
+            {
+              "value": "TFA Cola Syrup",
+              "text": "TFA Cola Syrup"
+            },
+            {
+              "value": "CAP Cola",
+              "text": "CAP Cola"
+            },
+            {
+              "value": "HS Blue Cola",
+              "text": "HS Blue Cola"
+            },
+            {
+              "value": "WF Rum & Cola",
+              "text": "WF Rum & Cola"
+            },
+            {
+              "value": "TFA Dr. Pop",
+              "text": "TFA Dr. Pop"
+            },
+            {
+              "value": "VT Cola",
+              "text": "VT Cola"
+            },
+            {
+              "value": "INW Cola",
+              "text": "INW Cola"
+            },
+            {
+              "value": "FW Dr. Soda Type",
+              "text": "FW Dr. Soda Type"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-03-03"
+}

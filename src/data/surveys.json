@@ -22,6 +22,11 @@
   {
     "id": "fotw-2020-02-25",
     "name": "Bubble",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-03-03",
+    "name": "Cola",
     "visible": false
   }
 ]
