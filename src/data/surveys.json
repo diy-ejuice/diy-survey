@@ -27,6 +27,11 @@
   {
     "id": "fotw-2020-03-03",
     "name": "Cola",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-03-10",
+    "name": "Toffee",
     "visible": false
   }
 ]

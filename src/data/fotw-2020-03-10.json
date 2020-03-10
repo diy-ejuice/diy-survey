@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Toffee?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "VT Butter Toffee Base",
+              "text": "VT Butter Toffee Base"
+            },
+            {
+              "value": "VT Toffee Ice Cream",
+              "text": "VT Toffee Ice Cream"
+            },
+            {
+              "value": "FLV Toffee",
+              "text": "FLV Toffee"
+            },
+            {
+              "value": "VT English Toffee",
+              "text": "VT English Toffee"
+            },
+            {
+              "value": "VT Hard Crack Toffee",
+              "text": "VT Hard Crack Toffee"
+            },
+            {
+              "value": "TFA English Toffee",
+              "text": "TFA English Toffee"
+            },
+            {
+              "value": "FW Butter Toffee",
+              "text": "FW Butter Toffee"
+            },
+            {
+              "value": "FW Toffee Dream Cream",
+              "text": "FW Toffee Dream Cream"
+            },
+            {
+              "value": "HS Caramel Toffee",
+              "text": "HS Caramel Toffee"
+            },
+            {
+              "value": "Delosi Toffee",
+              "text": "Delosi Toffee"
+            },
+            {
+              "value": "HS Caramel Toffee",
+              "text": "HS Caramel Toffee"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-03-10"
+}
