@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as Survey from 'survey-react';
 
-import SurveyJson from 'data/fotw-2020-03-10';
+import SurveyJson from 'data/fotw-2020-03-17';
 
 import { actions as appActions } from 'reducers/application';
 

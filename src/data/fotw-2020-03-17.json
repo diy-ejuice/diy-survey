@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your favorite Almond?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Almond (Madorla)",
+              "text": "FA Almond (Madorla)"
+            },
+            {
+              "value": "TFA Toasted Almond",
+              "text": "TFA Toasted Almond"
+            },
+            {
+              "value": "CAP Toasted Almond",
+              "text": "CAP Toasted Almond"
+            },
+            {
+              "value": "INW Almond",
+              "text": "INW Almond"
+            },
+            {
+              "value": "TFA Almond",
+              "text": "TFA Almond"
+            },
+            {
+              "value": "NicVape Almond",
+              "text": "NicVape Almond"
+            },
+            {
+              "value": "FW Toasted Almond",
+              "text": "FW Toasted Almond"
+            },
+            {
+              "value": "TFA Almond Amaretto",
+              "text": "TFA Almond Amaretto"
+            },
+            {
+              "value": "FW Almond Amaretto",
+              "text": "FW Almond Amaretto"
+            },
+            {
+              "value": "WF Almond Custard",
+              "text": "WF Almond Custard"
+            },
+            {
+              "value": "WF Almond Cookie",
+              "text": "WF Almond Cookie"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-03-17"
+}
