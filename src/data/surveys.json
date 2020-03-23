@@ -37,6 +37,11 @@
   {
     "id": "fotw-2020-03-17",
     "name": "Almond",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-03-24",
+    "name": "Apple",
     "visible": false
   }
-]
+] 

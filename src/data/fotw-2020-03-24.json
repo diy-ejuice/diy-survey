@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your favorite Red Apple flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Apple Stark",
+              "text": "FA Apple Stark"
+            },
+            {
+              "value": "FA Fuji",
+              "text": "FA Fuji"
+            },
+            {
+              "value": "TFA Apple",
+              "text": "TFA Apple"
+            },
+            {
+              "value": "FLV Apple",
+              "text": "FLV Apple"
+            },
+            {
+              "value": "FLV Red Apple",
+              "text": "FLV Red Apple"
+            },
+            {
+              "value": "FLV Apple Pop",
+              "text": "FLV Apple Pop"
+            },
+            {
+              "value": "PUR Country Apple",
+              "text": "PUR Country Apple"
+            },
+            {
+              "value": "CAP Fuji",
+              "text": "CAP Fuji"
+            },
+            {
+              "value": "VT Fuji Red Apple",
+              "text": "VT Fuji Red Apple"
+            },
+            {
+              "value": "JF Fuji",
+              "text": "JF Fuji"
+            },
+            {
+              "value": "INW Shisha Apple",
+              "text": "INW Shisha Apple"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-03-24"
+}
