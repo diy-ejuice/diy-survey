@@ -27,6 +27,7 @@ export class Results extends Component {
       loadSurvey: PropTypes.func.isRequired
     }).isRequired,
     surveys: PropTypes.arrayOf(PropTypes.object),
+    match: PropTypes.object,
     selectedSurvey: PropTypes.object
   };
 
@@ -39,6 +40,14 @@ export class Results extends Component {
     };
     this.handleSurveyChange = this.handleSurveyChange.bind(this);
     this.handleQuestionChange = this.handleQuestionChange.bind(this);
+
+    if (props.match) {
+      const { id } = props.match.params;
+
+      if (id) {
+        this.props.actions.loadSurvey(id);
+      }
+    }
   }
 
   componentDidMount() {
@@ -47,7 +56,34 @@ export class Results extends Component {
     actions.loadSurveys();
   }
 
-  async handleSurveyChange(event) {
+  async componentDidUpdate(prevProps) {
+    const { selectedSurvey: previousSurvey } = prevProps;
+    const { selectedSurvey } = this.props;
+
+    if (!previousSurvey || previousSurvey.id !== selectedSurvey?.id) {
+      try {
+        const jsonData = await import(`data/${selectedSurvey.id}.json`);
+
+        if (!jsonData?.pages?.length) {
+          return;
+        }
+
+        const questions = jsonData.pages[0].elements.map(element => ({
+          id: element.name,
+          name: element.title
+        }));
+
+        this.setState({
+          questions,
+          selectedQuestion: questions.length ? questions[0].id : ''
+        });
+      } catch {
+        return;
+      }
+    }
+  }
+
+  handleSurveyChange(event) {
     const { actions } = this.props;
     const {
       target: { value }
@@ -58,22 +94,6 @@ export class Results extends Component {
     }
 
     actions.loadSurvey(value);
-
-    const { default: jsonData } = await import(`data/${value}.json`);
-
-    if (!jsonData?.pages?.length) {
-      return;
-    }
-
-    const questions = jsonData.pages[0].elements.map(element => ({
-      id: element.name,
-      name: element.title
-    }));
-
-    this.setState({
-      questions,
-      selectedQuestion: questions.length ? questions[0].id : ''
-    });
   }
 
   handleQuestionChange(event) {
@@ -88,16 +108,20 @@ export class Results extends Component {
     this.setState({ selectedQuestion: value });
   }
 
+  get surveysLoading() {
+    return (
+      <Col md={12} className="text-center">
+        <h5>Loading Surveys&hellip;</h5>
+        <Spinner animation="border" />
+      </Col>
+    );
+  }
+
   get surveySelector() {
-    const { surveys } = this.props;
+    const { surveys, selectedSurvey } = this.props;
 
     if (!Array.isArray(surveys) || !surveys.length) {
-      return (
-        <Col md={12} className="text-center">
-          <h5>Loading Surveys&hellip;</h5>
-          <Spinner animation="border" />
-        </Col>
-      );
+      return this.surveysLoading;
     }
 
     const mappedSurveys = surveys.map(survey => {
@@ -125,7 +149,7 @@ export class Results extends Component {
     return (
       <FormControl
         as="select"
-        defaultValue=""
+        defaultValue={selectedSurvey?.id}
         onChange={this.handleSurveyChange}
         className="mb-2"
       >
