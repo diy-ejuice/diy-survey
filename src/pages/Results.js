@@ -1,7 +1,6 @@
-import { format, parseISO, startOfWeek } from 'date-fns';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Container, Row, Col, FormControl, Spinner } from 'react-bootstrap';
+import { Container, Row, Col, FormControl } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
 import {
@@ -16,7 +15,7 @@ import {
 import { bindActionCreators } from 'redux';
 
 import AngledTick from 'components/AngledTick/AngledTick';
-import Surveys from 'data/surveys';
+import SurveySelector from 'components/SurveySelector/SurveySelector';
 import { actions as appActions } from 'reducers/application';
 import { getSurveys, getSelectedSurvey } from 'selectors/application';
 
@@ -38,7 +37,6 @@ export class Results extends Component {
       selectedQuestion: '',
       questions: []
     };
-    this.handleSurveyChange = this.handleSurveyChange.bind(this);
     this.handleQuestionChange = this.handleQuestionChange.bind(this);
 
     if (props.match) {
@@ -83,19 +81,6 @@ export class Results extends Component {
     }
   }
 
-  handleSurveyChange(event) {
-    const { actions } = this.props;
-    const {
-      target: { value }
-    } = event;
-
-    if (!value) {
-      return;
-    }
-
-    actions.loadSurvey(value);
-  }
-
   handleQuestionChange(event) {
     const {
       target: { value }
@@ -106,57 +91,6 @@ export class Results extends Component {
     }
 
     this.setState({ selectedQuestion: value });
-  }
-
-  get surveysLoading() {
-    return (
-      <Col md={12} className="text-center">
-        <h5>Loading Surveys&hellip;</h5>
-        <Spinner animation="border" />
-      </Col>
-    );
-  }
-
-  get surveySelector() {
-    const { surveys, selectedSurvey } = this.props;
-
-    if (!Array.isArray(surveys) || !surveys.length) {
-      return this.surveysLoading;
-    }
-
-    const mappedSurveys = surveys.map(survey => {
-      const { surveyId } = survey;
-      const surveyMatch = Surveys.find(
-        innerSurvey => innerSurvey.id === surveyId
-      );
-
-      if (!surveyMatch || !surveyMatch.visible) {
-        return null;
-      }
-
-      const surveyDate = format(
-        startOfWeek(parseISO(surveyId.replace('fotw-', ''))),
-        'MMM do'
-      );
-
-      return (
-        <option value={surveyId} key={surveyId}>
-          {surveyMatch.name || surveyId} - Week of {surveyDate}
-        </option>
-      );
-    });
-
-    return (
-      <FormControl
-        as="select"
-        defaultValue={selectedSurvey?.id}
-        onChange={this.handleSurveyChange}
-        className="mb-2"
-      >
-        <option value="">Select a survey</option>
-        {mappedSurveys}
-      </FormControl>
-    );
   }
 
   get questionSelector() {
@@ -216,7 +150,7 @@ export class Results extends Component {
         <Row>
           <Col>
             <h1>Poll Results</h1>
-            {this.surveySelector}
+            <SurveySelector showVisible={true} />
             {this.questionSelector}
             {this.chart}
           </Col>
