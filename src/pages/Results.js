@@ -188,7 +188,7 @@ export class Results extends Component {
   render() {
     return (
       <Container>
-        <Helmet title="Survey Results" />
+        <Helmet title="Poll Results" />
         <Row>
           <Col>
             <h1>Poll Results</h1>

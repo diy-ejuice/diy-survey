@@ -50,10 +50,10 @@ export class SurveyPage extends Component {
   render() {
     return (
       <Container>
-        <Helmet title="Current Poll" />
+        <Helmet title="Active Polls" />
         <Row>
           <Col>
-            <h1>Current Poll</h1>
+            <h1>Active Polls</h1>
             <Survey.Survey
               css={this.css}
               model={this.model}

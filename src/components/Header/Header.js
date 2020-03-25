@@ -14,7 +14,7 @@ export default class Header extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/survey">
-              Current Poll
+              Active Polls
             </Nav.Link>
             <Nav.Link as={Link} to="/results">
               View Results
