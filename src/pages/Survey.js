@@ -1,20 +1,25 @@
+import { format, parseISO, startOfWeek } from 'date-fns';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, FormControl } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as Survey from 'survey-react';
 
-import SurveyJson from 'data/fotw-2020-03-24';
-
+import Surveys from 'data/surveys';
 import { actions as appActions } from 'reducers/application';
+import { getSelectedSurvey, getSurveys } from 'selectors/application';
 
 export class SurveyPage extends Component {
   static propTypes = {
     actions: PropTypes.shape({
-      submitSurvey: PropTypes.func.isRequired
-    }).isRequired
+      submitSurvey: PropTypes.func.isRequired,
+      loadSurvey: PropTypes.func.isRequired,
+      loadSurveys: PropTypes.func.isRequired
+    }).isRequired,
+    selectedSurvey: PropTypes.object,
+    surveys: PropTypes.arrayOf(PropTypes.object)
   };
 
   constructor(props) {
@@ -32,8 +37,21 @@ export class SurveyPage extends Component {
       },
       navigationButton: 'btn btn-success mt-2'
     };
-    this.model = new Survey.Model(JSON.stringify(SurveyJson));
+    this.surveys = [];
     this.onComplete = this.onComplete.bind(this);
+    this.handleSurveyChange = this.handleSurveyChange.bind(this);
+  }
+
+  async componentDidMount() {
+    const { actions } = this.props;
+
+    this.surveys = await Promise.all(
+      Surveys.filter(survey => !survey.visible).map(
+        async survey => new Survey.Model(await import(`data/${survey.id}.json`))
+      )
+    );
+
+    actions.loadSurveys();
   }
 
   onComplete(model) {
@@ -47,6 +65,78 @@ export class SurveyPage extends Component {
     actions.submitSurvey(cookieName, valuesHash);
   }
 
+  handleSurveyChange(event) {
+    const { actions } = this.props;
+    const {
+      target: { value }
+    } = event;
+
+    if (!value) {
+      return;
+    }
+
+    actions.loadSurvey(value);
+  }
+
+  get surveyOptions() {
+    return Surveys.map(survey => {
+      if (survey.visible) {
+        return null;
+      }
+
+      const surveyDate = format(
+        startOfWeek(parseISO(survey.id.replace('fotw-', ''))),
+        'MMM do'
+      );
+
+      return (
+        <option value={survey.id} key={survey.id}>
+          {survey.name || survey.id} - Week of {surveyDate}
+        </option>
+      );
+    });
+  }
+
+  get surveySelector() {
+    const { selectedSurvey } = this.props;
+
+    return (
+      <FormControl
+        as="select"
+        defaultValue={selectedSurvey?.id}
+        onChange={this.handleSurveyChange}
+        className="mb-2"
+      >
+        <option value="">Select a survey</option>
+        {this.surveyOptions}
+      </FormControl>
+    );
+  }
+
+  get survey() {
+    const { selectedSurvey } = this.props;
+
+    if (!selectedSurvey) {
+      return null;
+    }
+
+    const surveyModel = this.surveys.find(
+      survey => survey.cookieName === selectedSurvey?.id
+    );
+
+    if (!surveyModel) {
+      return null;
+    }
+
+    return (
+      <Survey.Survey
+        css={this.css}
+        model={surveyModel}
+        onComplete={this.onComplete}
+      />
+    );
+  }
+
   render() {
     return (
       <Container>
@@ -54,11 +144,8 @@ export class SurveyPage extends Component {
         <Row>
           <Col>
             <h1>Active Polls</h1>
-            <Survey.Survey
-              css={this.css}
-              model={this.model}
-              onComplete={this.onComplete}
-            />
+            {this.surveySelector}
+            {this.survey}
           </Col>
         </Row>
       </Container>
@@ -66,8 +153,13 @@ export class SurveyPage extends Component {
   }
 }
 
+const mapStateToProps = state => ({
+  surveys: getSurveys(state),
+  selectedSurvey: getSelectedSurvey(state)
+});
+
 const mapDispatchToProps = dispatch => ({
   actions: bindActionCreators(appActions, dispatch)
 });
 
-export default connect(null, mapDispatchToProps)(SurveyPage);
+export default connect(mapStateToProps, mapDispatchToProps)(SurveyPage);
