@@ -60,8 +60,9 @@ export class SurveySelector extends Component {
         return null;
       }
 
+      // use the last ten characters of the id as the date
       const surveyDate = format(
-        startOfWeek(parseISO(surveyId.replace('fotw-', ''))),
+        startOfWeek(parseISO(surveyId.substr(-10))),
         'MMM do'
       );
 
