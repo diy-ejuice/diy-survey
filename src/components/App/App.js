@@ -15,6 +15,7 @@ export default class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/survey" component={Survey} />
           <Route exact path="/results" component={Results} />
+          <Route path="/results/:id" component={Results} />
         </Switch>
       </Fragment>
     );
