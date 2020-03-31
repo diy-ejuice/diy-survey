@@ -6,7 +6,7 @@
         {
           "type": "radiogroup",
           "name": "favoriteFlavor",
-          "title": "",
+          "title": "Pick your favorite Green Apple",
           "isRequired": true,
           "choices": [
             {
