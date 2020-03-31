@@ -42,6 +42,11 @@
   {
     "id": "fotw-2020-03-24",
     "name": "Apple",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-03-31",
+    "name": "Green Apple",
     "visible": false
   }
 ] 

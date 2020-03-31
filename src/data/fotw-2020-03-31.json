@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FLV Sour Apple",
+              "text": "FLV Sour Apple"
+            },
+            {
+              "value": "FLV Granny Smith",
+              "text": "FLV Granny Smith"
+            },
+            {
+              "value": "TFA Tart Granny Smith",
+              "text": "TFA Tart Granny Smith"
+            },
+            {
+              "value": "VT Green Apple",
+              "text": "VT Green Apple"
+            },
+            {
+              "value": "CAP Green Apple",
+              "text": "CAP Green Apple"
+            },
+            {
+              "value": "FW Green Apple",
+              "text": "FW Green Apple"
+            },
+            {
+              "value": "INW Anton Apple",
+              "text": "INW Anton Apple"
+            },
+            {
+              "value": "LB Green Apple",
+              "text": "LB Green Apple"
+            },
+            {
+              "value": "CAP Green Apple Hard Candy",
+              "text": "CAP Green Apple Hard Candy"
+            },
+            {
+              "value": "OoO Happy Chewy Candy Apple",
+              "text": "OoO Happy Chewy Candy Apple"
+            },
+            {
+              "value": "LA Green Apple",
+              "text": "LA Green Apple"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-03-31"
+}
