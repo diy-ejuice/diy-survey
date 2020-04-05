@@ -37,6 +37,7 @@ export class Results extends Component {
       selectedQuestion: '',
       questions: []
     };
+    this.handleSurveyChange = this.handleSurveyChange.bind(this);
     this.handleQuestionChange = this.handleQuestionChange.bind(this);
 
     if (props.match) {
@@ -79,6 +80,19 @@ export class Results extends Component {
         return;
       }
     }
+  }
+
+  handleSurveyChange(event) {
+    const { actions } = this.props;
+    const {
+      target: { value }
+    } = event;
+
+    if (!value) {
+      return;
+    }
+
+    actions.loadSurvey(value);
   }
 
   handleQuestionChange(event) {
@@ -150,7 +164,10 @@ export class Results extends Component {
         <Row>
           <Col>
             <h1>Poll Results</h1>
-            <SurveySelector showVisible={true} />
+            <SurveySelector
+              showVisible={true}
+              onChange={this.handleSurveyChange}
+            />
             {this.questionSelector}
             {this.chart}
           </Col>

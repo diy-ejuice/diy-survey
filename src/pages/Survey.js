@@ -14,6 +14,7 @@ import { getSelectedSurvey, getSurveys } from 'selectors/application';
 export class SurveyPage extends Component {
   static propTypes = {
     actions: PropTypes.shape({
+      selectSurvey: PropTypes.func.isRequired,
       submitSurvey: PropTypes.func.isRequired,
       loadSurvey: PropTypes.func.isRequired,
       loadSurveys: PropTypes.func.isRequired
@@ -39,6 +40,7 @@ export class SurveyPage extends Component {
     };
     this.surveys = [];
     this.onComplete = this.onComplete.bind(this);
+    this.handleSurveyChange = this.handleSurveyChange.bind(this);
   }
 
   async componentDidMount() {
@@ -51,6 +53,19 @@ export class SurveyPage extends Component {
     );
 
     actions.loadSurveys();
+  }
+
+  handleSurveyChange(event) {
+    const { actions } = this.props;
+    const {
+      target: { value }
+    } = event;
+
+    if (!value) {
+      return;
+    }
+
+    actions.selectSurvey(value);
   }
 
   onComplete(model) {
@@ -95,7 +110,10 @@ export class SurveyPage extends Component {
         <Row>
           <Col>
             <h1>Active Polls</h1>
-            <SurveySelector showVisible={false} />
+            <SurveySelector
+              showVisible={false}
+              onChange={this.handleSurveyChange}
+            />
             {this.survey}
           </Col>
         </Row>

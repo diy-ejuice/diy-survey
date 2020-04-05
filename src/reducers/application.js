@@ -2,11 +2,12 @@ import { buildActions } from 'utils';
 
 export const types = buildActions('application', [
   'INIT_APP',
-  'SUBMIT_SURVEY',
-  'LOAD_SURVEY',
   'LOAD_SURVEY_SUCCESS',
+  'LOAD_SURVEY',
+  'LOAD_SURVEYS_SUCCESS',
   'LOAD_SURVEYS',
-  'LOAD_SURVEYS_SUCCESS'
+  'SELECT_SURVEY',
+  'SUBMIT_SURVEY'
 ]);
 
 const initApp = () => ({
@@ -16,6 +17,11 @@ const initApp = () => ({
 const submitSurvey = (id, answers) => ({
   type: types.SUBMIT_SURVEY,
   answers,
+  id
+});
+
+const selectSurvey = id => ({
+  type: types.SELECT_SURVEY,
   id
 });
 
@@ -45,6 +51,7 @@ export const actions = {
   loadSurveys,
   loadSurveysSuccess,
   loadSurveySuccess,
+  selectSurvey,
   submitSurvey
 };
 
@@ -55,6 +62,14 @@ export const initialState = {
 
 export const reducer = (state = initialState, action = {}) => {
   switch (action.type) {
+    case types.SELECT_SURVEY:
+      return {
+        ...state,
+        selectedSurvey: {
+          id: action.id,
+          answers: []
+        }
+      };
     case types.LOAD_SURVEY_SUCCESS:
       return {
         ...state,
