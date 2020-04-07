@@ -47,6 +47,11 @@
   {
     "id": "fotw-2020-03-31",
     "name": "Green Apple",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-04-07",
+    "name": "Applepalooza",
     "visible": false
   }
 ] 

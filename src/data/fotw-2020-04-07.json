@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Apple flavor that isn't green or red?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "CAP Double Apple",
+              "text": "CAP Double Apple"
+            },
+            {
+              "value": "INW Two Apples",
+              "text": "INW Two Apples"
+            },
+            {
+              "value": "INW Bahraini Apple Gold",
+              "text": "INW Bahraini Apple Gold"
+            },
+            {
+              "value": "FLV Apple Cranberry",
+              "text": "FLV Apple Cranberry"
+            },
+            {
+              "value": "HS Apple Mix",
+              "text": "HS Apple Mix"
+            },
+            {
+              "value": "FW Apple J Cereal",
+              "text": "FW Apple J Cereal"
+            },
+            {
+              "value": "CAP Apple Snacks",
+              "text": "CAP Apple Snacks"
+            },
+            {
+              "value": "TFA Apple Candy",
+              "text": "TFA Apple Candy"
+            },
+            {
+              "value": "WF Apple Cider",
+              "text": "WF Apple Cider"
+            },
+            {
+              "value": "FLV Apple Cider",
+              "text": "FLV Apple Cider"
+            },
+            {
+              "value": "WF Thai Apple",
+              "text": "WF Thai Apple"
+            },
+            {
+              "value": "FW Double Apple",
+              "text": "FW Double Apple"
+            },
+            {
+              "value": "VT Shisha Double Apple",
+              "text": "VT Shisha Double Apple"
+            },
+            {
+              "value": "TFA Quince",
+              "text": "TFA Quince"
+            },
+            {
+              "value": "WF Quince Jelly",
+              "text": "WF Quince Jelly"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        },
+        {
+            "type": "radiogroup",
+            "name": "favoriteFlavor",
+            "title": "What's your favorite Apple Pie flavor?",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": "FA Apple Pie",
+                "text": "FA Apple Pie"
+              },
+              {
+                "value": "CAP Apple Pie",
+                "text": "CAP Apple Pie"
+              },
+              {
+                "value": "CAP Apple Pie v2",
+                "text": "CAP Apple Pie v2"
+              },
+              {
+                "value": "TFA Apple Pie",
+                "text": "TFA Apple Pie"
+              },
+              {
+                "value": "FW Dutch Apple Pie",
+                "text": "FW Dutch Apple Pie"
+              },
+              {
+                "value": "DV Apple Pie",
+                "text": "DV Apple Pie"
+              },
+              {
+                "value": "OoO Apple Pie (Cinnamon)",
+                "text": "OoO Apple Pie (Cinnamon)"
+              },
+              {
+                "value": "Something Else",
+                "text": "Something Else"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookieName": "fotw-2020-04-07"
+  }
+
