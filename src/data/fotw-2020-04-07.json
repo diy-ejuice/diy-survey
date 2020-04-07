@@ -74,50 +74,9 @@
               "text": "Something Else"
             }
           ]
-        },
-        {
-            "type": "radiogroup",
-            "name": "favoriteFlavor",
-            "title": "What's your favorite Apple Pie flavor?",
-            "isRequired": true,
-            "choices": [
-              {
-                "value": "FA Apple Pie",
-                "text": "FA Apple Pie"
-              },
-              {
-                "value": "CAP Apple Pie",
-                "text": "CAP Apple Pie"
-              },
-              {
-                "value": "CAP Apple Pie v2",
-                "text": "CAP Apple Pie v2"
-              },
-              {
-                "value": "TFA Apple Pie",
-                "text": "TFA Apple Pie"
-              },
-              {
-                "value": "FW Dutch Apple Pie",
-                "text": "FW Dutch Apple Pie"
-              },
-              {
-                "value": "DV Apple Pie",
-                "text": "DV Apple Pie"
-              },
-              {
-                "value": "OoO Apple Pie (Cinnamon)",
-                "text": "OoO Apple Pie (Cinnamon)"
-              },
-              {
-                "value": "Something Else",
-                "text": "Something Else"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "cookieName": "fotw-2020-04-07"
-  }
-
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-04-07"
+}
