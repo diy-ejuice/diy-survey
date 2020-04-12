@@ -27,7 +27,11 @@ export class SurveySelector extends Component {
   get options() {
     const { showVisible } = this.props;
 
-    return Surveys.map(survey => {
+    const sorted = [...Surveys];
+
+    sorted.sort((a, b) => b.id.substr(-10).localeCompare(a.id.substr(-10)));
+
+    return sorted.map(survey => {
       if (survey.visible !== showVisible) {
         return null;
       }
