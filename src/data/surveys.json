@@ -57,6 +57,11 @@
   {
     "id": "fotw-2020-04-14",
     "name": "Gin",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-04-21",
+    "name": "Q1 Newest Flavors",
     "visible": false
   }
 ] 

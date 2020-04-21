@@ -1,0 +1,154 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "radiogroup",
+            "name": "favoriteNewFlavorArt",
+            "title": "What's your favorite new FlavourArt flavor?",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": "Blueberry Juicy Ripe",
+                "text": "Blueberry Juicy Ripe"
+              },
+              {
+                "value": "Indian Mango",
+                "text": "Indian Mango"
+              },
+              {
+                "value": "Rhapsody",
+                "text": "Rhapsody"
+              },
+              {
+                "value": "Something Else",
+                "text": "Something Else"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "favoriteNewWonderFlavor",
+            "title": "What's your favorite new Wonder Flavors flavor?",
+            "choices": [
+              {
+                "value": "Bavarian Cream",
+                "text": "Bavarian Cream"
+              },
+              {
+                "value": "Blueberry Gummy Candy",
+                "text": "Blueberry Gummy Candy"
+              },
+              {
+                "value": "Cookie Butter",
+                "text": "Cookie Butter"
+              },
+              {
+                "value": "Cream Custard",
+                "text": "Cream Custard"
+              },
+              {
+                "value": "Lemon Custard",
+                "text": "Lemon Custard"
+              },
+              {
+                "value": "Malaysian Guava",
+                "text": "Malaysian Guava"
+              },
+              {
+                "value": "Roasted Hazelnut",
+                "text": "Roasted Hazelnut"
+              },
+              {
+                "value": "Strawberry Cheesecake",
+                "text": "Strawberry Cheesecake"
+              },
+              {
+                "value": "Strawberry Juicy",
+                "text": "Strawberry Juicy"
+              },
+              {
+                "value": "Honey",
+                "text": "Honey"
+              },
+              {
+                "value": "Vanilla Custard",
+                "text": "Vanilla Custard"
+              },
+              {
+                "value": "Watermelon (Yellow)",
+                "text": "Watermelon (Yellow)"
+              },
+              {
+                "value": "Something Else",
+                "text": "Something Else"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "favoriteNewMolinberry",
+            "title": "What's your favorite new Molinberry flavor?",
+            "choices": [
+              {
+                "value": "Blueberry Jam",
+                "text": "Blueberry Jam"
+              },
+              {
+                "value": "Lemon Tart",
+                "text": "Lemon Tart"
+              },
+              {
+                "value": "Lychee & Dragon Fruit",
+                "text": "Lychee & Dragon Fruit"
+              },
+              {
+                "value": "Premium Green Tea",
+                "text": "Premium Green Tea"
+              },
+              {
+                "value": "Yellow Cake",
+                "text": "Yellow Cake"
+              },
+              {
+                "value": "Honeydew",
+                "text": "Honeydew"
+              },
+              {
+                "value": "Rocket Popsicle",
+                "text": "Rocket Popsicle"
+              },
+              {
+                "value": "Zesty Lemongrass",
+                "text": "Zesty Lemongrass"
+              },
+              {
+                "value": "Classic Belgian Waffle",
+                "text": "Classic Belgian Waffle"
+              },
+              {
+                "value": "Thick Vanilla Cream",
+                "text": "Thick Vanilla Cream"
+              },
+              {
+                "value": "Soft Baked Cookie Base",
+                "text": "Soft Baked Cookie Base"
+              },
+              {
+                "value": "Frozen Black Forest Fruits",
+                "text": "Frozen Black Forest Fruits"
+              },
+              {
+                "value": "Something Else",
+                "text": "Something Else"
+              }
+            ]
+          }
+        ],
+        "title": "Pick your Favorite"
+      }
+    ],
+    "cookieName": "fotw-2020-04-21"
+  }
+  
