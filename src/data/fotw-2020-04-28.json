@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Hazelnut flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FW Hazelnut",
+              "text": "FW Hazelnut"
+            },
+            {
+              "value": "TFA Hazelnut",
+              "text": "TFA Hazelnut"
+            },
+            {
+              "value": "FA Hazelnut",
+              "text": "FA Hazelnut"
+            },
+            {
+              "value": "FW Creamy Hazelnut",
+              "text": "FW Creamy Hazelnut"
+            },
+            {
+              "value": "CAP Hazelnut",
+              "text": "CAP Hazelnut"
+            },
+            {
+              "value": "CAP Hazelnut v2",
+              "text": "CAP Hazelnut v2"
+            },
+            {
+              "value": "WF Hazelnuts and Cream",
+              "text": "WF Hazelnuts and Cream"
+            },
+            {
+              "value": "FLV Hazelnut",
+              "text": "FLV Hazelnut"
+            },
+            {
+              "value": "MB Nut Hazelnut",
+              "text": "MB Nut Hazelnut"
+            },
+            {
+              "value": "TFA Hazelnut Praline",
+              "text": "TFA Hazelnut Praline"
+            },
+            {
+              "value": "RF Hazelnut",
+              "text": "RF Hazelnut"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-04-28"
+}
