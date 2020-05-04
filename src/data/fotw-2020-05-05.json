@@ -1,0 +1,50 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your favorite Macadamia Nut flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FW Macadamia Nut",
+              "text": "FW Macadamia Nut"
+            },
+            {
+              "value": "WF Macadamia Nut",
+              "text": "WF Macadamia Nut"
+            },
+            {
+              "value": "VT Macadamia Nut",
+              "text": "VT Macadamia Nut"
+            },
+            {
+              "value": "SCE Macadamia Nut",
+              "text": "SCE Macadamia Nut"
+            },
+            {
+              "value": "NF Macadamia Nut",
+              "text": "NF Macadamia Nut"
+            },
+            {
+              "value": "OoO White Chocolate Macadamia Nut",
+              "text": "OoO White Chocolate Macadamia Nut"
+            },
+            {
+              "value": "NF White Chocolate Macadamia Nut",
+              "text": "NF White Chocolate Macadamia Nut"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-05-05"
+}
