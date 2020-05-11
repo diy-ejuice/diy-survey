@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite American tobacco?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "HS Red USA",
+              "text": "HS Red USA"
+            },
+            {
+              "value": "SC American Red",
+              "text": "SC American Red"
+            },
+            {
+              "value": "INW Tobacco Western Blend",
+              "text": "INW Tobacco Western Blend"
+            },
+            {
+              "value": "TFA Western",
+              "text": "TFA Western"
+            },
+            {
+              "value": "MB USA Mix",
+              "text": "MB USA Mix"
+            },
+            {
+              "value": "INW American Type tobacco",
+              "text": "INW American Type tobacco"
+            },
+            {
+              "value": "SC American Tobacco",
+              "text": "SC American Tobacco"
+            },
+            {
+              "value": "SC Western",
+              "text": "SC Western"
+            },
+            {
+              "value": "JF American Blend",
+              "text": "JF American Blend"
+            },
+            {
+              "value": "FA Cowboy Blend",
+              "text": "FA Cowboy Blend"
+            },
+            {
+              "value": "FW American Tobacco USA Blend",
+              "text": "FW American Tobacco USA Blend"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-05-12"
+}
