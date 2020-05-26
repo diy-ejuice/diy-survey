@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Root Beer flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Root Beer",
+              "text": "TFA Root Beer"
+            },
+            {
+              "value": "TFA Root Beer Float",
+              "text": "TFA Root Beer Float"
+            },
+            {
+              "value": "CAP Root Beer",
+              "text": "CAP Root Beer"
+            },
+            {
+              "value": "LB Root Beer",
+              "text": "LB Root Beer"
+            },
+            {
+              "value": "FLV Root Beer",
+              "text": "FLV Root Beer"
+            },
+            {
+              "value": "FW Root Beer",
+              "text": "FW Root Beer"
+            },
+            {
+              "value": "FW Root Beer Float",
+              "text": "FW Root Beer Float"
+            },
+            {
+              "value": "TP Rasta Root Beer",
+              "text": "TP Rasta Root Beer"
+            },
+            {
+              "value": "OSDIY Olde Tyme Rootbeer",
+              "text": "OSDIY Old Tyme Rootbeer"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-05-26"
+}
