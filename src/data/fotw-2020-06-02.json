@@ -6,7 +6,7 @@
         {
           "type": "radiogroup",
           "name": "favoriteFlavor",
-          "title": "",
+          "title": "What's your favorite Tea flavor?",
           "isRequired": true,
           "choices": [
             {
