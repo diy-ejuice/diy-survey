@@ -82,6 +82,16 @@
   {
     "id": "fotw-2020-05-26",
     "name": "Root Beer",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-06-02",
+    "name": "Tea",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-06-09",
+    "name": "Caramel",
     "visible": false
   }
 ]

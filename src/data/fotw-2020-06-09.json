@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Caramel flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Caramel",
+              "text": "FA Caramel"
+            },
+            {
+              "value": "TFA Caramel (Original)",
+              "text": "TFA Caramel (Original)"
+            },
+            {
+              "value": "TFA Caramel Candy",
+              "text": "TFA Caramel Candy"
+            },
+            {
+              "value": "FW Salted Caramel",
+              "text": "FW Salted Caramel"
+            },
+            {
+              "value": "CAP Caramel",
+              "text": "CAP Caramel"
+            },
+            {
+              "value": "FW Caramel Candy",
+              "text": "FW Caramel Candy"
+            },
+            {
+              "value": "FLV Caramel",
+              "text": "FLV Caramel"
+            },
+            {
+              "value": "WF Caramel Butter",
+              "text": "WF Caramel Butter"
+            },
+            {
+              "value": "HS Caramel Toffee",
+              "text": "HS Caramel Toffee"
+            },
+            {
+              "value": "LA Caramel",
+              "text": "LA Caramel"
+            },
+            {
+              "value": "VT Salted Caramel",
+              "text": "VT Salted Caramel"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-06-09"
+}
