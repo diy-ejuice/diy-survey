@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Tea flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FLV Eisai Tea",
+              "text": "FLV Eisai Tea"
+            },
+            {
+              "value": "FLV Black Tea",
+              "text": "FLV Black Tea"
+            },
+            {
+              "value": "FLV Green Tea",
+              "text": "FLV Green Tea"
+            },
+            {
+              "value": "FA Black Tea",
+              "text": "FA Black Tea"
+            },
+            {
+              "value": "SC Black Tea",
+              "text": "SC Black Tea"
+            },
+            {
+              "value": "FE Green Tea",
+              "text": "FE Green Tea"
+            },
+            {
+              "value": "TFA Sweet Tea",
+              "text": "TFA Sweet Tea"
+            },
+            {
+              "value": "TFA Green Tea",
+              "text": "TFA Green Tea"
+            },
+            {
+              "value": "TFA Chai Tea",
+              "text": "TFA Chai Tea"
+            },
+            {
+              "value": "TFA Earl Grey Tea",
+              "text": "TFA Earl Grey Tea"
+            },
+            {
+              "value": "FLV Lemon Tea",
+              "text": "FLV Lemon Tea"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-06-02"
+}
