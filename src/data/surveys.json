@@ -92,6 +92,11 @@
   {
     "id": "fotw-2020-06-09",
     "name": "Caramel",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-06-16",
+    "name": "Cookies",
     "visible": false
   }
 ] 
