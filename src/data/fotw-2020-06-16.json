@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Cookie flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "CAP Sugar Cookie",
+              "text": "CAP Sugar Cookie"
+            },
+            {
+              "value": "FA Cookie",
+              "text": "FA Cookie"
+            },
+            {
+              "value": "CAP Sugar Cookie v2",
+              "text": "CAP Sugar Cookie v2"
+            },
+            {
+              "value": "TFA Oatmeal Cookie",
+              "text": "TFA Oatmeal Cookie"
+            },
+            {
+              "value": "FW Sugar Cookie",
+              "text": "FW Sugar Cookie"
+            },
+            {
+              "value": "INW Biscuit",
+              "text": "INW Biscuit"
+            },
+            {
+              "value": "JF Biscuit",
+              "text": "JF Biscuit"
+            },
+            {
+              "value": "CAP SL Biscuit",
+              "text": "CAP SL Biscuit"
+            },
+            {
+              "value": "VT Biscuit Base",
+              "text": "VT Biscuit Base"
+            },
+            {
+              "value": "FW Cookies and Cream",
+              "text": "FW Cookies and Cream"
+            },
+            {
+              "value": "WF Shortbread Cookies",
+              "text": "WF Shortbread Cookies"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-06-16"
+}
