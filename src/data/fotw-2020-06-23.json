@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "Who's your favorite DIY eJuice Moderator?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "They don't do anything anyway",
+              "text": "They don't do anything anyway"
+            },
+            {
+              "value": "Angry bald dude from Noted",
+              "text": "Angry bald dude from Noted"
+            },
+            {
+              "value": "The Honey Guy",
+              "text": "The Honey Guy"
+            },
+            {
+              "value": "Inert Creeper",
+              "text": "Inert Creeper"
+            },
+            {
+              "value": "Captain James Tiberius",
+              "text": "Captain James Tiberius"
+            },
+            {
+              "value": "The Cranky Consumbable Curmudgeon",
+              "text": "The Cranky Consumbable Curmudgeon"
+            },
+            {
+              "value": "TelsusNoMor Sweeteners",
+              "text": "TelsusNoMor Sweeteners"
+            },
+            {
+              "value": "The FAQ Nazi",
+              "text": "The FAQ Nazi"
+            },
+            {
+              "value": "Fuck the Police",
+              "text": "Fuck the Police"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-06-23"
+}
