@@ -102,6 +102,11 @@
   {
     "id": "fotw-2020-06-23",
     "name": "Favorite Mod",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-06-30",
+    "name": "Mary Jane",
     "visible": false
   }
-] 
+]

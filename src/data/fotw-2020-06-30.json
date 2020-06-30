@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite Mary Jane flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Reggae Nights",
+              "text": "FA Reggae Nights"
+            },
+            {
+              "value": "TFA Mary Jane",
+              "text": "TFA Mary Jane"
+            },
+            {
+              "value": "TFA Cannabis Type",
+              "text": "TFA Cannabis Type"
+            },
+            {
+              "value": "Tasty Puff Sweet Leaf",
+              "text": "Tasty Puff Sweet Leaf"
+            },
+            {
+              "value": "Euro Flavors Amsterdam",
+              "text": "Euro Flavors Amsterdam"
+            },
+            {
+              "value": "SA Cannabis",
+              "text": "SA Cannabis"
+            },
+            {
+              "value": "SA Chanvre",
+              "text": "SA Chanvre"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-06-30"
+}
