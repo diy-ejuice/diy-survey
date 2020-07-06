@@ -1,0 +1,50 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your flavorite Walnut flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Walnut",
+              "text": "FA Walnut"
+            },
+            {
+              "value": "WF Walnut",
+              "text": "WF Walnut"
+            },
+            {
+              "value": "LA Black Walnut",
+              "text": "LA Black Walnut"
+            },
+            {
+              "value": "VT Walnut",
+              "text": "VT Walnut"
+            },
+            {
+              "value": "MF Walnut",
+              "text": "MF Walnut"
+            },
+            {
+              "value": "SA Noix (Walnut)",
+              "text": "SA Noix (Walnut)"
+            },
+            {
+              "value": "FE Walnut",
+              "text": "FE Walnut"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-07-07"
+}

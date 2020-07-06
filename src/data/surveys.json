@@ -107,6 +107,11 @@
   {
     "id": "fotw-2020-06-30",
     "name": "Mary Jane",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-07-07",
+    "name": "Walnut",
     "visible": false
   }
 ]
