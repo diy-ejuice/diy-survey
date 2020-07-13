@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What is your flavorite Watermelon flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "MB Big Watermelon",
+              "text": "MB Big Watermelon"
+            },
+            {
+              "value": "Cap Double Watermelon",
+              "text": "Cap Double Watermelon"
+            },
+            {
+              "value": "FA Red Summer",
+              "text": "FA Red Summer"
+            },
+            {
+              "value": "WF Sour Watermelon Candy",
+              "text": "WF Sour Watermelon Candy"
+            },
+            {
+              "value": "Cap Sweet Watermelon",
+              "text": "Cap Sweet Watermelon"
+            },
+            {
+              "value": "TPA Watermelon",
+              "text": "TPA Watermelon"
+            },
+            {
+              "value": "FLV Watermelon",
+              "text": "FLV Watermelon"
+            },
+            {
+              "value": "LA Watermelon",
+              "text": "LA Watermelon"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-07-14"
+}

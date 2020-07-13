@@ -112,6 +112,11 @@
   {
     "id": "fotw-2020-07-07",
     "name": "Walnut",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-07-14",
+    "name": "Watermelon",
     "visible": false
   }
 ]
