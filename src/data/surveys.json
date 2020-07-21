@@ -117,6 +117,11 @@
   {
     "id": "fotw-2020-07-14",
     "name": "Watermelon",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-07-21",
+    "name": "Bavarian Cream",
     "visible": false
   }
 ]

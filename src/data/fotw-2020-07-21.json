@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Bavarian Cream flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Bavarian Cream",
+              "text": "TFA Bavarian Cream"
+            },
+            {
+              "value": "FW Bavarian Cream",
+              "text": "FW Bavarian Cream"
+            },
+            {
+              "value": "CAP Bavarian Cream",
+              "text": "CAP Bavarian Cream"
+            },
+            {
+              "value": "LA Bavarian Cream",
+              "text": "LA Bavarian Cream"
+            },
+            {
+              "value": "FA Bavarian Cream",
+              "text": "FA Bavarian Cream"
+            },
+            {
+              "value": "JF Bavarian Cream",
+              "text": "JF Bavarian Cream"
+            },
+            {
+              "value": "PUR Bavarian Cream",
+              "text": "PUR Bavarian Cream"
+            },
+            {
+              "value": "WF Bavarian Cream",
+              "text": "WF Bavarian Cream"
+            },
+            {
+              "value": "NV Bavarian Cream",
+              "text": "NV Bavarian Cream"
+            },
+            {
+              "value": "OOO Bavarian Cream",
+              "text": "OOO Bavarian Cream"
+            },
+            {
+              "value": "GL Bavarian Cream",
+              "text": "GL Bavarian Cream"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-07-21"
+}
