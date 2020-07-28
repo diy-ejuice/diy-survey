@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your favorite pankcake/waffle flavors?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Pancake",
+              "text": "TFA Pancake"
+            },
+            {
+              "value": "OOO Pancake",
+              "text": "OOO Pancake"
+            },
+            {
+              "value": "NF Pancake (Organic)",
+              "text": "NF Pancake (Organic)"
+            },
+            {
+              "value": "TFA Waffle (Belgian)",
+              "text": "TFA Waffle (Belgian)"
+            },
+            {
+              "value": "TFA Waffle",
+              "text": "TFA Waffle"
+            },
+            {
+              "value": "CAP Waffle",
+              "text": "CAP Waffle"
+            },
+            {
+              "value": "FW Waffle",
+              "text": "FW Waffle"
+            },
+            {
+              "value": "FW Blueberry Graham Waffle",
+              "text": "FW Blueberry Graham Waffle"
+            },
+            {
+              "value": "LB Belgian Waffle",
+              "text": "LB Belgian Waffle"
+            },
+            {
+              "value": "WF Crepe",
+              "text": "WF Crepe"
+            },
+            {
+              "value": "SA Crepe (Pancake)",
+              "text": "SA Crepe (Pancake)"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-07-28"
+}
