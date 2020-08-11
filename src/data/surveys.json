@@ -117,6 +117,26 @@
   {
     "id": "fotw-2020-07-14",
     "name": "Watermelon",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-07-21",
+    "name": "Bavarian Cream",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-07-28",
+    "name": "Syrup Delivery Systems",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-08-04",
+    "name": "Breakfast Breads",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-08-11",
+    "name": "Flavor of the Quarter 2",
     "visible": false
   }
 ]
