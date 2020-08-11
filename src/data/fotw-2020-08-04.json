@@ -1,0 +1,102 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Breakfast Bread flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FLV Blueberry Muffin",
+              "text": "FLV Blueberry Muffin"
+            },
+            {
+              "value": "FW Coffee Cake",
+              "text": "FW Coffee Cake"
+            },
+            {
+              "value": "RF Blueberry Muffin",
+              "text": "RF Blueberry Muffin"
+            },
+            {
+              "value": "HC Cinnamon Danish",
+              "text": "HC Cinnamon Danish"
+            },
+            {
+              "value": "NF Banana Nut",
+              "text": "NF Banana Nut"
+            },
+            {
+              "value": "OOO Banana Nut Bread",
+              "text": "OOO Banana Nut Bread"
+            },
+            {
+              "value": "LQ Cinnamon Toast",
+              "text": "LQ Cinnamon Toast"
+            },
+            {
+              "value": "TP Blueberry Muffin",
+              "text": "TP Blueberry Muffin"
+            },
+            {
+              "value": "RF Cinnamon Toast",
+              "text": "RF Cinnamon Toast"
+            },
+            {
+              "value": "RF Banana Bread",
+              "text": "RF Banana Bread"
+            },
+            {
+              "value": "HS Cinnamon Bread",
+              "text": "HS Cinnamon Bread"
+            },
+            {
+              "value": "TFA Banana Nut Bread",
+              "text": "TFA Banana Nut Bread"
+            },
+            {
+              "value": "RF Blueberry Muffin",
+              "text": "RF Blueberry Muffin"
+            },
+            {
+              "value": "FW Banana Nut Bread",
+              "text": "FW Banana Nut Bread"
+            },
+            {
+              "value": "FP Blueberry Muffin",
+              "text": "FP Blueberry Muffin"
+            },
+            {
+              "value": "DIYFS Blueberry Muffin",
+              "text": "DIYFS Blueberry Muffin"
+            },
+            {
+              "value": "FLV Lembas Bread",
+              "text": "FLV Lembas Bread"
+            },
+            {
+              "value": "VT Croissant",
+              "text": "VT Croissant"
+            },
+            {
+              "value": "WF Croissant",
+              "text": "WF Croissant"
+            },
+            {
+              "value": "TFA Cinnamon Danish",
+              "text": "TFA Cinnamon Danish"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-08-04"
+}
