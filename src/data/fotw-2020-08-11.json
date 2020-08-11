@@ -1,0 +1,106 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite new WF flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Amaretto",
+              "text": "Amaretto"
+            },
+            {
+              "value": "Apple Gummy Candy",
+              "text": "Apple Gummy Candy"
+            },
+            {
+              "value": "Bourbon (Aged Cream)",
+              "text": "Bourbon (Aged Cream)"
+            },
+            {
+              "value": "Bread (Banana Nut)",
+              "text": "Bread (Banana Nut)"
+            },
+            {
+              "value": "Bread (Butter Toast)",
+              "text": "Bread (Butter Toast)"
+            },
+            {
+              "value": "Bread (Sweet), Buttermilk",
+              "text": "Bread (Sweet), Buttermilk"
+            },
+            {
+              "value": "Citrus Drink (Five Fruits)",
+              "text": "Citrus Drink (Five Fruits)"
+            },
+            {
+              "value": "Citrus Gummy Candy",
+              "text": "Citrus Gummy Candy"
+            },
+            {
+              "value": "Corn Powder",
+              "text": "Corn Powder"
+            },
+            {
+              "value": "Crumble Topping",
+              "text": "Crumble Topping"
+            },
+            {
+              "value": "Egg Yolk",
+              "text": "Egg Yolk"
+            },
+            {
+              "value": "Grape Juice",
+              "text": "Grape Juice"
+            },
+            {
+              "value": "Kumquat",
+              "text": "Kumquat"
+            },
+            {
+              "value": "Philadelphia Butter Cake",
+              "text": "Philadelphia Butter Cake"
+            },
+            {
+              "value": "Pineapple (Baked)",
+              "text": "Pineapple (Baked)"
+            },
+            {
+              "value": "Portuguese Egg Tart",
+              "text": "Portuguese Egg Tart"
+            },
+            {
+              "value": "Raspberry Jelly Bean",
+              "text": "Raspberry Jelly Bean"
+            },
+            {
+              "value": "Southern Sweet Tea",
+              "text": "Southern Sweet Tea"
+            },
+            {
+              "value": "Sugar Cookie",
+              "text": "Sugar Cookie"
+            },
+            {
+              "value": "Sweetener (Stevia 15%)",
+              "text": "Sweetener (Stevia 15%)"
+            },
+            {
+              "value": "Tropical Gummy Candy",
+              "text": "Tropical Gummy Candy"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-08-11"
+}
