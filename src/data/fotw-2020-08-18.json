@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Cheesecake flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "INW Yes We Cheesecake",
+              "text": "INW Yes We Cheesecake"
+            },
+            {
+              "value": "WF Strawberry Cheesecake",
+              "text": "WF Strawberry Cheesecake"
+            },
+            {
+              "value": "LB Strawberry Cheesecake",
+              "text": "LB Strawberry Cheesecake"
+            },
+            {
+              "value": "VT Cheesecake",
+              "text": "VT Cheesecake"
+            },
+            {
+              "value": "FLV Berry Cheesecake",
+              "text": "FLV Berry Cheesecake"
+            },
+            {
+              "value": "TFA Cheesecake Graham Crust",
+              "text": "TFA Cheesecake Graham Crust"
+            },
+            {
+              "value": "PUR Cheesecake Graham Crust",
+              "text": "PUR Cheesecake Graham Crust"
+            },
+            {
+              "value": "CAP NY Cheesecake",
+              "text": "CAP NY Cheesecake"
+            },
+            {
+              "value": "PUR NY Cheesecake",
+              "text": "PUR NY Cheesecake"
+            },
+            {
+              "value": "FLV Cheesecake",
+              "text": "FLV Cheesecake"
+            },
+            {
+              "value": "FW Cheesecake",
+              "text": "FW Cheesecake"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-08-18"
+}

@@ -137,6 +137,11 @@
   {
     "id": "fotw-2020-08-11",
     "name": "Flavor of the Quarter 2",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-08-18",
+    "name": "Cheesecake",
     "visible": false
   }
 ]
