@@ -142,6 +142,11 @@
   {
     "id": "fotw-2020-08-18",
     "name": "Cheesecake",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-08-25",
+    "name": "Milk Chocolate",
     "visible": false
   }
 ]

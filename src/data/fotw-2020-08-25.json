@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Milk Chocolate flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Milk Chocolate",
+              "text": "TFA Milk Chocolate"
+            },
+            {
+              "value": "FLV Milk Chocolate",
+              "text": "FLV Milk Chocolate"
+            },
+            {
+              "value": "INW Milk Chocolate",
+              "text": "INW Milk Chocolate"
+            },
+            {
+              "value": "VT Chocolate Milk",
+              "text": "VT Chocolate Milk"
+            },
+            {
+              "value": "OoO Chocolate Milk",
+              "text": "OoO Chocolate Milk"
+            },
+            {
+              "value": "FW Milk Chocolate",
+              "text": "FW Milk Chocolate"
+            },
+            {
+              "value": "MB Glamour Chocolate",
+              "text": "MB Glamour Chocolate"
+            },
+            {
+              "value": "JF Milk Chocolate",
+              "text": "JF Milk Chocolate"
+            },
+            {
+              "value": "FE Milk Chocolate",
+              "text": "FE Milk Chocolate"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-08-25"
+}
