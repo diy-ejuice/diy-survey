@@ -147,6 +147,11 @@
   {
     "id": "fotw-2020-08-25",
     "name": "Milk Chocolate",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-09-01",
+    "name": "Sweet Tobacco",
     "visible": false
   }
 ]

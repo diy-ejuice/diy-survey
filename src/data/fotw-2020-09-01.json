@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Sweet Tobacco (non-RY4) flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FLV Sweet & Smokey",
+              "text": "FLV Sweet & Smokey"
+            },
+            {
+              "value": "FA SOHO",
+              "text": "FA SOHO"
+            },
+            {
+              "value": "TFA Black Honey",
+              "text": "TFA Black Honey"
+            },
+            {
+              "value": "LB Butterscotch Graham Tobacco",
+              "text": "LB Butterscotch Graham Tobacco"
+            },
+            {
+              "value": "LB Sweet Pipe Tobacco",
+              "text": "LB Sweet Pipe Tobacco"
+            },
+            {
+              "value": "EF Tobacco Vanilla Custard",
+              "text": "EF Tobacco Vanilla Custard"
+            },
+            {
+              "value": "FLV Sweet Cigarette",
+              "text": "FLV Sweet Cigarette"
+            },
+            {
+              "value": "CBV C4 Blend Sweet Dark Honey",
+              "text": "CBV C4 Blend Sweet Dark Honey"
+            },
+            {
+              "value": "FW Butterscotch Tobacco,",
+              "text": "FW Butterscotch Tobacco,"
+            },
+            {
+              "value": "FW Honeywood Tobacco",
+              "text": "FW Honeywood Tobacco"
+            },
+            {
+              "value": "INW Sweet Tobacco",
+              "text": "INW Sweet Tobacco"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-09-01"
+}
