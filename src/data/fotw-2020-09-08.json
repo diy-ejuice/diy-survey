@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite \"Cone\" flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "WF Sugar Cone",
+              "text": "WF Sugar Cone"
+            },
+            {
+              "value": "FW Waffle Cone",
+              "text": "FW Waffle Cone"
+            },
+            {
+              "value": "OoO Sugar Cone",
+              "text": "OoO Sugar Cone"
+            },
+            {
+              "value": "OoO Caramel Cone",
+              "text": "OoO Caramel Cone"
+            },
+            {
+              "value": "WF Crispy Wafer",
+              "text": "WF Crispy Wafer"
+            },
+            {
+              "value": "Another Cookie Flavor",
+              "text": "Another Cookie Flavor"
+            },
+            {
+              "value": "Another Biscuit Flavor",
+              "text": "Another Biscuit Flavor"
+            },
+            {
+              "value": "Another Waffle Flavor",
+              "text": "Another Waffle Flavor"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-09-08"
+}
