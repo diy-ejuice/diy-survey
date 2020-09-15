@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Blue Raspberry flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "LB Blue Raspberry",
+              "text": "LB Blue Raspberry"
+            },
+            {
+              "value": "FW Blue Raspberry",
+              "text": "FW Blue Raspberry"
+            },
+            {
+              "value": "TFA Blue Raspberry",
+              "text": "TFA Blue Raspberry"
+            },
+            {
+              "value": "CAP Blue Raspberry Cotton Candy",
+              "text": "CAP Blue Raspberry Cotton Candy"
+            },
+            {
+              "value": "OSDIY Blue Raspberry Slush",
+              "text": "OSDIY Blue Raspberry Slush"
+            },
+            {
+              "value": "WF Sour Blue Raspberry Candy",
+              "text": "WF Sour Blue Raspberry Candy"
+            },
+            {
+              "value": "OoO Blue Raspberry (Candy)",
+              "text": "OoO Blue Raspberry (Candy)"
+            },
+            {
+              "value": "EF Blue Raspberry",
+              "text": "EF Blue Raspberry"
+            },
+            {
+              "value": "FR Blue Raspberry",
+              "text": "FR Blue Raspberry"
+            },
+            {
+              "value": "NR Blue Raspberry",
+              "text": "NR Blue Raspberry"
+            },
+            {
+              "value": "NR Blue Raspberry Taffy",
+              "text": "NR Blue Raspberry Taffy"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-09-15"
+}
