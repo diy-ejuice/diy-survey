@@ -162,6 +162,11 @@
   {
     "id": "fotw-2020-09-15",
     "name": "Blue Raspberry",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-09-22",
+    "name": "Rose",
     "visible": false
   }
 ]

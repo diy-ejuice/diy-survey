@@ -1,0 +1,59 @@
+{
+    "pages": [
+      {
+        "name": "page1",
+        "elements": [
+          {
+            "type": "radiogroup",
+            "name": "favoriteFlavor",
+            "title": "What's your flavorite Rose flavor?",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": "FA Rose",
+                "text": "FA Rose"
+              },
+              {
+                "value": "VT Rose",
+                "text": "VT Rose"
+              },
+              {
+                "value": "FLV Rose Essence",
+                "text": "FLV Rose Essence"
+              },
+              {
+                "value": "CdD Rose",
+                "text": "CdD Rose"
+              },
+              {
+                "value": "HS Watermelon",
+                "text": "HS Watermelon"
+              },
+              {
+                "value": "FW Rose Tobacco",
+                "text": "FW Rose Tobacco"
+              },
+              {
+                "value": "EF Rose",
+                "text": "EF Rose"
+              },
+              {
+                "value": "TFA Rose Candy",
+                "text": "TFA Rose Candy"
+              },
+              {
+                "value": "INW Tobacco Wild Rose",
+                "text": "INW Tobacco Wild Rose"
+              },
+              {
+                "value": "Something Else",
+                "text": "Something Else"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookieName": "fotw-2020-09-22"
+  }
+  
