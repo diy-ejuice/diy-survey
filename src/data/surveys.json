@@ -167,6 +167,11 @@
   {
     "id": "fotw-2020-09-22",
     "name": "Rose",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-09-29",
+    "name": "Fruity Cereals",
     "visible": false
   }
 ]
