@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite plain cereal flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "CAP Cereal 27",
+              "text": "CAP Cereal 27"
+            },
+            {
+              "value": "TFA Crunchy (Captain) Cereal",
+              "text": "TFA Crunchy (Captain) Cereal"
+            },
+            {
+              "value": "FLV Crunch Cereal",
+              "text": "FLV Crunch Cereal"
+            },
+            {
+              "value": "TFA Sweet Cereal Flakes",
+              "text": "TFA Sweet Cereal Flakes"
+            },
+            {
+              "value": "TFA Honey Circles Cereal",
+              "text": "TFA Honey Circles Cereal"
+            },
+            {
+              "value": "OoO Speckled Flakes Cereal",
+              "text": "OoO Speckled Flakes Cereal"
+            },
+            {
+              "value": "FLV Tricks Cereal",
+              "text": "FLV Tricks Cereal"
+            },
+            {
+              "value": "PUR Cereal",
+              "text": "PUR Cereal"
+            },
+            {
+              "value": "WF Puff Cereal",
+              "text": "WF Puff Cereal"
+            },
+            {
+              "value": "TFA Lucky Leprechaun Cereal",
+              "text": "TFA Lucky Leprechaun Cereal"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-10-6"
+}

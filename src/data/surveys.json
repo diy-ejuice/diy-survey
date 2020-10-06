@@ -172,6 +172,11 @@
   {
     "id": "fotw-2020-09-29",
     "name": "Fruity Cereals",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-09-29",
+    "name": "Plain Cereals",
     "visible": false
   }
 ]
