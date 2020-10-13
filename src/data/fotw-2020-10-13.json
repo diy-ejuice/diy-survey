@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite citrus soda flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FLV Citrus Soda",
+              "text": "FLV Citrus Soda"
+            },
+            {
+              "value": "CAP Lemon Lime",
+              "text": "CAP Lemon Lime"
+            },
+            {
+              "value": "WF Lemon Lime Soda",
+              "text": "WF Lemon Lime Soda"
+            },
+            {
+              "value": "LB Dew Mountain",
+              "text": "LB Dew Mountain"
+            },
+            {
+              "value": "TFA Citrus Punch",
+              "text": "TFA Citrus Punch"
+            },
+            {
+              "value": "INW Lemons Kick",
+              "text": "INW Lemons Kick"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-10-06"
+}

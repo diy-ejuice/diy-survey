@@ -177,6 +177,11 @@
   {
     "id": "fotw-2020-10-06",
     "name": "Plain Cereals",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-10-13",
+    "name": "Citrus Soda",
     "visible": false
   }
 ]
