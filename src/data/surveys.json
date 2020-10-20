@@ -182,6 +182,11 @@
   {
     "id": "fotw-2020-10-13",
     "name": "Citrus Soda",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-10-20",
+    "name": "Pumpkin",
     "visible": false
   }
 ]

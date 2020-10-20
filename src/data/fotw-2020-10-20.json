@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Pumpkin flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Pumpkin",
+              "text": "TFA Pumpkin"
+            },
+            {
+              "value": "TFA Pumpkin Spice",
+              "text": "TFA Pumpkin Spice"
+            },
+            {
+              "value": "CAP Pumpkin Pie (Spice)",
+              "text": "CAP Pumpkin Pie (Spice)"
+            },
+            {
+              "value": "FLV Pumpkin Spice",
+              "text": "FLV Pumpkin Spice"
+            },
+            {
+              "value": "FLV Pumpkin Bread",
+              "text": "FLV Pumpkin Bread"
+            },
+            {
+              "value": "FW Pumpkin Pie",
+              "text": "FW Pumpkin Pie"
+            },
+            {
+              "value": "VSO Pumpkin",
+              "text": "VSO Pumpkin"
+            },
+            {
+              "value": "LB Pumpkin Pie",
+              "text": "LB Pumpkin Pie"
+            },
+            {
+              "value": "LA Pumpkin",
+              "text": "LA Pumpkin"
+            },
+            {
+              "value": "WF Pumpkin Candy",
+              "text": "WF Pumpkin Candy"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-10-20"
+}
