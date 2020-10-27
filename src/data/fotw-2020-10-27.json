@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Cranberry flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Cranberry",
+              "text": "TFA Cranberry"
+            },
+            {
+              "value": "CAP Cranberry",
+              "text": "CAP Cranberry"
+            },
+            {
+              "value": "FLV Cranberry",
+              "text": "FLV Cranberry"
+            },
+            {
+              "value": "FW Cranberry",
+              "text": "FW Cranberry"
+            },
+            {
+              "value": "TFA Cranberry Sauce",
+              "text": "TFA Cranberry Sauce"
+            },
+            {
+              "value": "LA Cranberry Natural",
+              "text": "LA Cranberry Natural"
+            },
+            {
+              "value": "WF Cranberry Cocktail",
+              "text": "WF Cranberry Cocktail"
+            },
+            {
+              "value": "INW Cranberry",
+              "text": "INW Cranberry"
+            },
+            {
+              "value": "FLV Apple Cranberry",
+              "text": "FLV Apple Cranberry"
+            },
+            {
+              "value": "PUR Cranberry Orange",
+              "text": "PUR Cranberry Orange"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-10-27"
+}

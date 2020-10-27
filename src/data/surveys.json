@@ -187,6 +187,11 @@
   {
     "id": "fotw-2020-10-20",
     "name": "Pumpkin",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-10-27",
+    "name": "Cranberry",
     "visible": false
   }
 ]
