@@ -6,7 +6,7 @@
         {
           "type": "radiogroup",
           "name": "favoriteFlavor",
-          "title": "What's your flavorite Cranberry flavor?",
+          "title": "What's your flavorite Gingerbread flavor?",
           "isRequired": true,
           "choices": [
             {
