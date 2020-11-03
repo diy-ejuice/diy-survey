@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Cranberry flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "CAP Gingerbread",
+              "text": "CAP Gingerbread"
+            },
+            {
+              "value": "HS Gingerbread",
+              "text": "HS Gingerbread"
+            },
+            {
+              "value": "FLV Gingersnap",
+              "text": "FLV Gingersnap"
+            },
+            {
+              "value": "TFA Gingerbread Extra Ginger",
+              "text": "TFA Gingerbread Extra Ginger"
+            },
+            {
+              "value": "OoO Gingerbread Cookie",
+              "text": "OoO Gingerbread Cookie"
+            },
+            {
+              "value": "FW Gingerbread",
+              "text": "FW Gingerbread"
+            },
+            {
+              "value": "TFA Gingerbread",
+              "text": "TFA Gingerbread"
+            },
+            {
+              "value": "TFA Gingerbread Cookie",
+              "text": "TFA Gingerbread Cookie"
+            },
+            {
+              "value": "INW Gingerbread",
+              "text": "INW Gingerbread"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-11-03"
+}
