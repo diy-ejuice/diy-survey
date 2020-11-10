@@ -1,0 +1,50 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Peppermint flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FW Candy Cane",
+              "text": "FW Candy Cane"
+            },
+            {
+              "value": "CAP Peppermint",
+              "text": "CAP Peppermint"
+            },
+            {
+              "value": "FA Peppermint",
+              "text": "FA Peppermint"
+            },
+            {
+              "value": "FLV Peppermint",
+              "text": "FLV Peppermint"
+            },
+            {
+              "value": "TFA Peppermint",
+              "text": "TFA Peppermint"
+            },
+            {
+              "value": "CAP Peppermint",
+              "text": "CAP Peppermint"
+            },
+            {
+              "value": "LB Peppermint",
+              "text": "LB Peppermint"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-11-10"
+}

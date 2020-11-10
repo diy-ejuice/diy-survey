@@ -197,6 +197,11 @@
   {
     "id": "fotw-2020-11-03",
     "name": "Gingerbread",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-11-10",
+    "name": "Peppermint",
     "visible": false
   }
 ]
