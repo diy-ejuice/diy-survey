@@ -202,6 +202,11 @@
   {
     "id": "fotw-2020-11-10",
     "name": "Peppermint",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-11-17",
+    "name": "Wine",
     "visible": false
   }
 ]

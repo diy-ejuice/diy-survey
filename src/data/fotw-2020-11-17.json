@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Wine flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA White Wine",
+              "text": "FA White Wine"
+            },
+            {
+              "value": "FLV Moscato",
+              "text": "FLV Moscato"
+            },
+            {
+              "value": "FLV Sangria",
+              "text": "FLV Sangria"
+            },
+            {
+              "value": "FW Wine White",
+              "text": "FW Wine White"
+            },
+            {
+              "value": "FW Wine Red",
+              "text": "FW Wine Red"
+            },
+            {
+              "value": "FW Wine Blush Chablis",
+              "text": "FW Wine Blush Chablis"
+            },
+            {
+              "value": "FW Wine Merlot",
+              "text": "FW Wine Merlot"
+            },
+            {
+              "value": "OoO Red Wine",
+              "text": "OoO Red Wine"
+            },
+            {
+              "value": "OoO Merlot",
+              "text": "OoO Merlot"
+            },
+            {
+              "value": "FA Wine Red",
+              "text": "FA Wine Red"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-11-17"
+}
