@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Champagne concentrate?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "TFA Champagne",
+              "text": "TFA Champagne"
+            },
+            {
+              "value": "FW Pink Champagne",
+              "text": "FW Pink Champagne"
+            },
+            {
+              "value": "INW Sparkling Wine",
+              "text": "INW Sparkling Wine"
+            },
+            {
+              "value": "FLV Brut Bubble Wine",
+              "text": "FLV Brut Bubble Wine"
+            },
+            {
+              "value": "FLV Morning Mimosa",
+              "text": "FLV Morning Mimosa"
+            },
+            {
+              "value": "VT Blood Orange Champagne",
+              "text": "VT Blood Orange Champagne"
+            },
+            {
+              "value": "FA Wine Champagne",
+              "text": "FA Wine Champagne"
+            },
+            {
+              "value": "LA Sparkling Wine",
+              "text": "LA Sparkling Wine"
+            },
+            {
+              "value": "WF Champagne Soda",
+              "text": "WF Champagne Soda"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-09-15"
+}

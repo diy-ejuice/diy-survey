@@ -207,6 +207,11 @@
   {
     "id": "fotw-2020-11-17",
     "name": "Wine",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-11-24",
+    "name": "Champagne",
     "visible": false
   }
 ]
