@@ -1,0 +1,62 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Marshmallow flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FA Marshmallow",
+              "text": "FA Marshmallow"
+            },
+            {
+              "value": "TFA Marshmallow",
+              "text": "TFA Marshmallow"
+            },
+            {
+              "value": "CAP Marshmallow",
+              "text": "CAP Marshmallow"
+            },
+            {
+              "value": "FW Marshmallow",
+              "text": "FW Marshmallow"
+            },
+            {
+              "value": "FLV Marshmallow",
+              "text": "FLV Marshmallow"
+            },
+            {
+              "value": "FLV Vanilla Marshmallow",
+              "text": "FLV Vanilla Marshmallow"
+            },
+            {
+              "value": "WF Marshmallow Gooey",
+              "text": "WF Marshmallow Gooey"
+            },
+            {
+              "value": "OOO Marshmallow Vanilla",
+              "text": "OOO Marshmallow Vanilla"
+            },
+            {
+              "value": "TFA Toasted Marshmallow",
+              "text": "TFA Toasted Marshmallow"
+            },
+            {
+              "value": "WF Marshmallow Candy",
+              "text": "WF Marshmallow Candy"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-12-01"
+}

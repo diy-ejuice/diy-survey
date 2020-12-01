@@ -212,6 +212,11 @@
   {
     "id": "fotw-2020-11-24",
     "name": "Champagne",
+    "visible": true
+  },
+  {
+    "id": "fotw-2020-12-01",
+    "name": "Marshmallow",
     "visible": false
   }
 ]
