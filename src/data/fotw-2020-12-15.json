@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "favoriteFlavor",
+          "title": "What's your flavorite Raisin flavor?",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "FLV Oatmeal Raisin",
+              "text": "FLV Oatmeal Raisin"
+            },
+            {
+              "value": "FLV Raisin Rum",
+              "text": "FLV Raisin Rum"
+            },
+            {
+              "value": "VT Rum & Raisin",
+              "text": "VT Rum & Raisin"
+            },
+            {
+              "value": "TFA Raisin",
+              "text": "TFA Raisin"
+            },
+            {
+              "value": "Something Else",
+              "text": "Something Else"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cookieName": "fotw-2020-12-15"
+}
